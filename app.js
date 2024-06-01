@@ -13,6 +13,9 @@ app.use((req, res, next) => {
 app.get('/api/message', (req, res) => {
   res.json({ message: 'Hello from Express!' });
 });
+app.get('/api/test', (req, res) => {
+  res.json({ message: 'Hello from Test!' });
+});
 // Import routes
 const indexRouter = require('./routes/index');
 const aboutRouter = require('./routes/about');
