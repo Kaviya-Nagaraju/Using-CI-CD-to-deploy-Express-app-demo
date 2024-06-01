@@ -1,0 +1,8 @@
+service: backend
+runtime: nodejs18
+handlers:
+  - url: /.*
+    script: auto
+instance_class: F1    
+env_variables:
+  NODE_ENV: 'production'
