@@ -1,4 +1,4 @@
-service: ci/cd-deploy
+service: ci_cd_deploy
 runtime: nodejs18
 handlers:
   - url: /.*
