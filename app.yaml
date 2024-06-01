@@ -1,4 +1,4 @@
-service: backend
+service: ci/cd-deploy
 runtime: nodejs18
 handlers:
   - url: /.*
