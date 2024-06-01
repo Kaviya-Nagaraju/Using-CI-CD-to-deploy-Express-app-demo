@@ -30,7 +30,7 @@ jobs:
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v1
         with:
-          project_id: YOUR_PROJECT_ID
+          project_id: my-express-project-424806
           install_components: app-engine-nodejs
 
       - name: Deploy to Google App Engine
