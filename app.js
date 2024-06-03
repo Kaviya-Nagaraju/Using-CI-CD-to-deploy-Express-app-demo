@@ -16,6 +16,8 @@ app.get('/api/message', (req, res) => {
 app.get('/api/test', (req, res) => {
   res.json({ message: 'Hello from Test!' });
 });
+
+
 // Import routes
 const indexRouter = require('./routes/index');
 const aboutRouter = require('./routes/about');
